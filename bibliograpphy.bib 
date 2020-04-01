@@ -1,0 +1,52 @@
+references in .bib form, export bib tech
+@data{DVN/MPBGXL_2019,
+author = {Kuipers, Nicholas},
+publisher = {Harvard Dataverse},
+title = "{Replication Data for: The Effect of Electing Female Candidates on Attitudes Towards Intimate Partner Violence}",
+year = {2019},
+version = {DRAFT VERSION},
+doi = {10.7910/DVN/MPBGXL},
+url = {https://doi.org/10.7910/DVN/MPBGXL}
+}
+
+@data{DVN/PXV79W_2017,
+author = {Beaman, Lori and Chattopadhyay, Raghabendra and Duflo, Esther and Pande, Rohini and Topalova, Petia},
+publisher = {Harvard Dataverse},
+title = "{Powerful women and aspirations in India}",
+UNF = {UNF:6:24s7Kbr1pozsdzAJHMHlRA==},
+year = {2017},
+version = {V2},
+doi = {10.7910/DVN/PXV79W},
+url = {https://doi.org/10.7910/DVN/PXV79W}
+}
+
+@data{DVN/2ENLN4_2007,
+author = {Chattopadhyay, Raghabendra and Duflo, Esther},
+publisher = {Harvard Dataverse},
+title = "{Women as Policy Makers: Evidence from a Randomized Policy Experiment in India, 1998-2002}",
+UNF = {UNF:5:E5H0+0GuNP6GkJhtFGxmtA==},
+year = {2007},
+version = {V4},
+doi = {10.7910/DVN/2ENLN4},
+url = {https://doi.org/10.7910/DVN/2ENLN4}
+}
+
+@data{DVN/2ZRRX2_2020,
+author = {Cooper, Jasper and Anna M. Wilke and Donald P. Green},
+publisher = {Harvard Dataverse},
+title = "{Replication Data for ``Countering Violence Against Women by Encouraging Disclosure: A mass media experiment in rural Uganda''}",
+year = {2020},
+version = {V1},
+doi = {10.7910/DVN/2ZRRX2},
+url = {https://doi.org/10.7910/DVN/2ZRRX2}
+}
+
+@data{DVN/HOTQBL_2017,
+author = {Vintila, Daniela and Morales, Laura},
+publisher = {Harvard Dataverse},
+title = "{Excel data collection template of work package 1 on descriptive political represention in national parliaments of the project Pathways to Power}",
+year = {2017},
+version = {V1},
+doi = {10.7910/DVN/HOTQBL},
+url = {https://doi.org/10.7910/DVN/HOTQBL}
+}
