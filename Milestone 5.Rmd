@@ -2,8 +2,8 @@
 title: "Milestone 5"
 author: "Feven Yohannes"
 date: "March 30, 2020"
-output: html_document
-bibliography: bibliography.bib.R
+output: bookdown::pdf_document2
+bibliography: newbib.bib
 ---
 
 ```{r setup, include=FALSE,warning=FALSE}
@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(readr)
 library(dplyr)
 library(lmtest)
+library(tinytex)
 
 #Need this to run coeftest
 
@@ -43,6 +44,11 @@ constituency_data  <- read_csv("dataverse_files 2/replication_file_jop/data/pub_
 
 Overview of the paper:
 
+Nicholas Kuipers' paper "The Effect of Electing Female Candidates on Attitudes Towards Intimate Partner Violence", examines how electing female candidates in local elections in Indonesia can lead to a decrease in intimate partner violence. He specifically looks at elections where the female candidate narrowly wins. Overall he finds that a female victory in local elections leads to an increase in female constituents and male constituents (although not as much) condemning domestic abuse.
+
+Kuipers introduces other countries in which the relationship between female representation in government and attitudes towards IPV (intimate partner violence) is significant. For example, India saw that an increase in female representation led to more enactment of policies that targeted domestic abuse. In the case of Indonesia, Kuipers explains the importance of analyzing IPV and policies as domestic abuse has affected almost half of the female population and Indonesia has been experiencing institutional reform.
+
+In his experiment, Kuipers examines the effect of electing female candidates to the Dewan Perwakilan Rakyat Daerah, a legislative body in Indonesia. He estimates the effect of adding an additional female lawmaker to the legislative body on tolerance levels of IPV among constituents. To measure the attitudes towards IPV, Kuipers used the USAID Demographic and HealthnSurvey (DHS), which was conducted in 2012 as a nationally representative survey of middle-aged women and men. The main results showed that electing females did affect constituent's beliefs toward IPV. For example "Electing a female legislator leads a 6.4 percentage point drop in the proportion of women who say it is acceptable to beat one’s wife if she goes out without telling her husband". Kuipers claims that the reason for this change in attitude may be because of laws that female politicians tend to enact in regard to domestic abuse. Female politicians may allocate more resources in awareness, helping victims, or strengthened laws that prohibit or punish domestic abuse. After examining some of these reasons, Kuipers found that female legislators have a large effect on policy implications and empower people to condemn IPV.
 
 
 Graphic 
@@ -87,7 +93,7 @@ table <- list(mod_fem1, mod_fem2, mod_fem3, mod_fem4, mod_fem5, mod_fem7)
 
 note_text <- paste("Beta coefficients from OLS regression. Standard errors were calculated using the huber-white (HC0) correction. The outcomes are drawn from a battery of questions that asked respondents if it was acceptable to beat one's wife if she: (1) goes out without telling her husband; (2) neglects her children; (3) argues with her husband; (4) refuses sex; (5) burns the food. The index is an additive measure.")
 
-table = stargazer(table, type = 'latex', 
+table = stargazer(table,
                   title = "Effect of Female Incumbency on Female Attitudes Towards IPV",
                   label = 'tab:table_female',
                   model.names = F,
@@ -106,8 +112,5 @@ table = stargazer(table, type = 'latex',
                   notes = NULL,
                   notes.align = 'l')
 
-#write_latex_placebo(table[-c(18, 21, 27)], note_text, './outputs/tables/table_female_respondents.tex', .8)
-
-
+table
 ```
-

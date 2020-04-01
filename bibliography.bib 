@@ -1,0 +1,39 @@
+@data{Kuipers2019,
+author = {Kuipers, Nicholas},
+publisher = {Harvard Dataverse},
+title = "{Replication Data for: The Effect of Electing Female Candidates on Attitudes Towards Intimate Partner Violence}",
+year = {2019},
+version = {DRAFT VERSION}
+}
+
+@data{Beaman2017,
+author = {Beaman, Lori and Chattopadhyay, Raghabendra and Duflo, Esther and Pande, Rohini and Topalova, Petia},
+publisher = {Harvard Dataverse},
+title = "{Powerful women and aspirations in India}",
+year = {2017},
+version = {V2}
+}
+
+@data{Chattopadhyay2007,
+author = {Chattopadhyay, Raghabendra and Duflo, Esther},
+publisher = {Harvard Dataverse},
+title = "{Women as Policy Makers: Evidence from a Randomized Policy Experiment in India, 1998-2002}",
+year = {2007},
+version = {V4}
+}
+
+@data{Cooper2020,
+author = {Cooper, Jasper and Anna M. Wilke and Donald P. Green},
+publisher = {Harvard Dataverse},
+title = "{Replication Data for ``Countering Violence Against Women by Encouraging Disclosure: A mass media experiment in rural Uganda''}",
+year = {2020},
+version = {V1}
+}
+
+@data{Vintila2017,
+author = {Vintila, Daniela and Morales, Laura},
+publisher = {Harvard Dataverse},
+title = "{Excel data collection template of work package 1 on descriptive political represention in national parliaments of the project Pathways to Power}",
+year = {2017},
+version = {V1}
+}
