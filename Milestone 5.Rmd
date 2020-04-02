@@ -116,7 +116,7 @@ table
 ```
 
 
-![Original Table in Paper I am replicating](/Users/Feven/Downloads/milestone5_screenshot)
+![Original Table in Paper I am replicating](/Users/Feven/Downloads/Milestone_5/milestone5_screenshot.png)
 
 
 # References
