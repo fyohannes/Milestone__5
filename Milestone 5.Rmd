@@ -112,7 +112,6 @@ table = stargazer(table, type = 'latex',
                   notes = NULL,
                   notes.align = 'l')
 
-table
 ```
 
 
