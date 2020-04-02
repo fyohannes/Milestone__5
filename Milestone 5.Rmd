@@ -72,7 +72,7 @@ graphic
 
 Appendix
 
-```{r}
+```{r,results='asis'}
 mod_fem1 <- lm(v744a_f2012 ~ woman_win, data = constituency_data)
 mod_fem2 <- lm(v744b_f2012 ~ woman_win, data = constituency_data)
 mod_fem3 <- lm(v744c_f2012 ~ woman_win, data = constituency_data)
@@ -116,7 +116,7 @@ table
 ```
 
 
-![Original Table in Paper I am replicating](/Users/Feven/Downloads/Milestone_5/milestone5_screenshot.png)
+![Original Table in Paper I am replicating](/Home/Downloads/Gov1006/Milestone_5/milestone5_screenshot.png)
 
 
 # References
