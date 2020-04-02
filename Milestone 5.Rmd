@@ -93,7 +93,7 @@ table <- list(mod_fem1, mod_fem2, mod_fem3, mod_fem4, mod_fem5, mod_fem7)
 
 note_text <- paste("Beta coefficients from OLS regression. Standard errors were calculated using the huber-white (HC0) correction. The outcomes are drawn from a battery of questions that asked respondents if it was acceptable to beat one's wife if she: (1) goes out without telling her husband; (2) neglects her children; (3) argues with her husband; (4) refuses sex; (5) burns the food. The index is an additive measure.")
 
-table = stargazer(table,
+table = stargazer(table,type = 'latex',
                   title = "Effect of Female Incumbency on Female Attitudes Towards IPV",
                   label = 'tab:table_female',
                   model.names = F,
@@ -114,3 +114,11 @@ table = stargazer(table,
 
 table
 ```
+
+
+![Original Table in Paper I am replicating](/Users/Feven/Downloads/milestone5_screenshot)
+
+
+# References
+
+I make use of @Kuipers2019, @Beaman2017, @Chattopadhyay2007, @Cooper2020, @Vintila2017
